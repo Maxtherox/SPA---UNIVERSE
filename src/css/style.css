@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    font-size: 62.5%;
+    --ff-body: 'Roboto', sans-serif;
+
+    --fc-nav: hsla(240, 6%, 58%, 1);
+    --fc-content: hsla(240, 9%, 89%, 1);
+
+    --fs-nav: 2.2rem;
+    --fs-tittle: 4.8rem;
+    --fs-p: 1.8rem;
+
+    --bg-color: black;
+}
+
+body {
+    font-family: var(--ff-body);
+    font-size: var(--fs-p);
+    color: var(--fc-content);
+    background: url('./src/img/mountains-universe-2.png');
+}
