@@ -22,5 +22,79 @@ body {
     font-family: var(--ff-body);
     font-size: var(--fs-p);
     color: var(--fc-content);
-    background: url('./src/img/mountains-universe-2.png');
+    background:black;
+    background-image: url(https://raw.githubusercontent.com/Maxtherox/SPA---UNIVERSE/master/src/img/mountains-universe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content:flex-start;  
+    align-items: center;
+    gap: 5.3rem;
+    font-size: var(--fs-nav);
+    margin: 4.0rem 7.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fc-nav);
+    transition: color 1s;
+}
+
+h1 {
+    font-family: var(--ff-body);
+    font-size: var(--fs-tittle);
+    font-weight: bold;
+    line-height: 125%;
+}
+
+button {
+    background: none;
+    border: 1px solid white ;
+    color: var(--fc-content);
+    cursor: pointer;
+    font-family: var(--ff-body);
+    font-size: 2.4rem;
+    padding: 1.2rem 3.2rem;
+    border-radius: .5rem;
+    transition: .5s;
+    
+}
+.home-content {
+    margin: 30.8rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.side-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin: 10.3rem 10.2rem  ;
+    max-width: 64.8rem;
+    max-height: auto;
+}
+
+
+button:hover {
+    background-color: white;
+    transform: scale(1.1);
+    transition: 1s;
+    color: black;
+}
+
+button a:hover{
+    color: black;
+}
+
+
+nav a:hover {
+    font-weight: bold;
+    color: white;
 }
