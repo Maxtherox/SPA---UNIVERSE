@@ -98,3 +98,8 @@ nav a:hover {
     font-weight: bold;
     color: white;
 }
+
+img:hover{
+    transform: scale(1.1
+    );
+}
